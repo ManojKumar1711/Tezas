@@ -110,6 +110,9 @@
    .u-section-1 {
     min-height: 559px;
   }
+  #{
+
+  }
 
   .u-section-1 .u-image-1 {
     width: 376px;

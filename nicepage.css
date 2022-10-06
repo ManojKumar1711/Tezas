@@ -13218,9 +13218,7 @@ section.u-image:not(.u-hover-box),
 .u-group .u-container-layout > * {
   position: relative;
 }
-.u-group {
-  display: flex;
-}
+
 .u-line.u-line-horizontal {
   border-right-width: 0;
   border-left-width: 0;
