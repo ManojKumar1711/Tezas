@@ -1,32 +1,32 @@
 .title-word {
-  animation: color-animation 4s linear infinite;
+  animation: color-animation 2s linear infinite;
 }
 .title-letter-1 {
-  --color-1: #DF8453;
-  --color-2: #3D8DAE;
-  --color-3: #E4A9A8;
+  --color-1: #00bdff;
+  --color-2: black;
+  --color-3: #fba800;
 }
 
 .title-letter-2 {
-  --color-1: #DBAD4A;
-  --color-2: #ACCFCB;
-  --color-3: #17494D;
+  --color-1: #00bdff;
+  --color-2: black;
+  --color-3: #fba800;
 }
 
 .title-letter-3 {
-  --color-1: #ACCFCB;
-  --color-2: #E4A9A8;
-  --color-3: #ACCFCB;
+  --color-1: #00bdff;
+  --color-2: black;
+  --color-3: #fba800;
 }
 
 .title-letter-4 {
-  --color-1: #3D8DAE;
-  --color-2: #DF8453;
-  --color-3: #E4A9A8;
+  --color-1: #00bdff;
+  --color-2: black;
+  --color-3: #fba800;
 }
 .title-letter-5{
-  --color-1: #7000ee;
-  --color-2: #00bdff;
+  --color-1: #00bdff;
+  --color-2: black;
   --color-3: #fba800;
 }
 
