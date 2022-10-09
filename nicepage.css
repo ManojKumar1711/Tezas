@@ -6051,6 +6051,9 @@ section.u-image:not(.u-hover-box),
   .u-sheet {
     width: var(--theme-sheet-width-xs) !important;
   }
+    .content h2{
+        font-size: 5.3em;
+    }
 }
 .u-body .u-sheet .u-sheet {
   width: 100% !important;
@@ -37767,6 +37770,9 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         }
+        .content h2{
+            font-size: 6.3em;
+        }
         /** common-rules **/
 
         /** publish-rules **/
@@ -37782,6 +37788,7 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         font-size: 3rem;
         }
+
         }
         @media (max-width: 575px) {
         h2.u-subtitle
@@ -37805,6 +37812,9 @@ a.u-link.u-text-hover-grey-90:hover {
         h3
         {
         font-size: 1.5rem;
+        }
+                .content h2{
+            font-size: 5.3em;
         }
         }
         /*end-media rules*/
