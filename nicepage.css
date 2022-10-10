@@ -27355,8 +27355,8 @@ section.u-white:before,
 .u-white.u-sidenav:before,
 .u-container-layout.u-container-layout.u-white:before,
 .u-table-alt-white tr:nth-child(even) {
-  color: #111111;
-  background-color: #ffffff;
+  color: white;
+  background-color: none;
 }
 .u-button-style.u-white,
 .u-button-style.u-white[class*="u-border-"] {
