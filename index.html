@@ -700,46 +700,20 @@
 
 <section class="u-align-center u-clearfix u-grey-5 u-section-8" id="carousel_e888"
          style="display: flex;justify-content: center;">
-    <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1">Time before BOOM..
-        </h2>
+
+
         <div class="u-expanded-width u-list u-list-1">
-            <div class="u-repeater u-repeater-1">
-                <div class="u-align-center u-container-style u-list-item u-radius-50 u-repeater-item u-shape-round u-white u-list-item-1">
-                    <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1">
-                        <h3 class="u-custom-font u-font-montserrat u-text u-text-palette-2-base u-text-2"
-                            data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000" id="days">
-                            </h3>
+            <h1><i>EVENT STARTS . . .</i></h1>
+            <hr>
+            <hr>
 
-                    </div>
-                </div>
-                <div class="u-align-center u-container-style u-list-item u-radius-50 u-repeater-item u-shape-round u-white u-list-item-2">
-                    <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2">
-
-                        <h3 class="u-custom-font u-font-montserrat u-text u-text-palette-2-base u-text-4"
-                            data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000" id="hours">
-                            </h3>
+            <h3 class="u-custom-font u-font-montserrat u-text u-text-palette-2-base u-text-2"
+                data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000" id="days">
+            </h3>
 
 
-                    </div>
-                </div>
-                <div class="u-align-center u-container-style u-list-item u-radius-50 u-repeater-item u-shape-round u-white u-list-item-3">
-                    <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3">
-                        <h3 class="u-custom-font u-font-montserrat u-text u-text-palette-2-base u-text-6"
-                            data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000" id="minutes">
-                            </h3>
-                    </div>
-                </div>
-                <div class="u-align-center u-container-style u-list-item u-radius-50 u-repeater-item u-shape-round u-white u-list-item-4">
-                    <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-4">
-                        <h3 class="u-custom-font u-font-montserrat u-text u-text-palette-2-base u-text-8"
-                            data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000" id="seconds">
-                            </h3>
-
-                    </div>
-                </div>
             </div>
-        </div>
+
     </div>
 </section>
 
@@ -901,10 +875,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Output the result in an element with id="demo"
-  document.getElementById("days").innerHTML = days + " D ";
-  document.getElementById("hours").innerHTML = hours + " H ";
-  document.getElementById("minutes").innerHTML =  minutes + " M " ;
-  document.getElementById("seconds").innerHTML = seconds + " S ";
+  document.getElementById("days").innerHTML = days + "D : "+hours+'H : '+minutes+'M : '+seconds+'S';
+
 
   // If the count down is over, write some text
   if (distance < 0) {
