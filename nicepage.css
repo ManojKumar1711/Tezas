@@ -32958,7 +32958,7 @@ section.u-white:before,
 .u-container-layout.u-container-layout.u-white:before,
 .u-table-alt-white tr:nth-child(even) {
     color: white;
-    background-color: #9075;
+    background-color: none;
 }
 
 .u-button-style.u-white,
