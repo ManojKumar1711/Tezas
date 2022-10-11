@@ -233,9 +233,8 @@
                         <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-border-9 u-border-palette-2-light-1 u-image u-image-circle u-image-1"
                              alt="" data-image-width="1200" data-image-height="801"></div>
                         <h4 class="u-align-center u-text u-text-3">RULES</h4>
-                        <br>
 
-                        <button style="border-radius: 50px;height: 56px;width: 55px;margin: auto;" id="button-1" class="button-85 " onmouseover="onhover('button-1')" onmouseout="onreverse('button-1')" ><a href="images/Rules%20and%20Regulation.pdf" target="_blank" id="button-1_text" style="color: black"></a></button>                        <!-- HTML !-->
+                        <button style="margin-top: 30px;border-radius: 10px;height: 35px"><a href="images/Rules%20and%20Regulation.pdf" target="_blank">Click Me</a></button>                        <!-- HTML !-->
 
 
 
@@ -246,9 +245,7 @@
                         <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-border-9 u-border-palette-2-light-1 u-image u-image-circle u-image-2"
                              alt="" data-image-width="626" data-image-height="626"></div>
                         <h4 class="u-align-center u-text u-text-5">EVENTS</h4>
-                        <br>
-                        <button style="border-radius: 50px;height: 56px;width: 55px;margin: auto;" id="button-2" class="button-85" onmouseover="onhover('button-2')" onmouseout="onreverse('button-2')" ><a href="#carousel_adc8" target="_blank" id="button-2_text" style="color: black"></a></button>                        <!-- HTML !-->
-
+                        <button style="margin-top: 30px;border-radius: 10px;height: 35px" class="button-85" role="button"><a href="#carousel_adc8">Click Me</a></button>
 
                     </div>
                 </div>
@@ -257,9 +254,7 @@
                         <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-border-9 u-border-palette-2-light-1 u-image u-image-circle u-image-3"
                              alt="" data-image-width="626" data-image-height="420"></div>
                         <h4 class="u-align-center u-text u-text-7">BUS ROUTES</h4>
-                        <br>
-                        <button style="border-radius: 50px;height: 56px;width: 55px;margin: auto;" id="button-3" class="button-85 " onmouseover="onhover('button-3')" onmouseout="onreverse('button-3')" ><a href="images/busroutes.pdf" target="_blank" id="button-3_text" style="color: black"></a></button>                        <!-- HTML !-->
-
+                        <button style="margin-top: 30px;border-radius: 10px;height: 35px"><a href="images/busroutes.pdf" target="_blank";>Click Me</a></button>
                     </div>
                 </div>
             </div>
@@ -767,25 +762,5 @@
             document.getElementById("demo").innerHTML = "EXPIRED";
         }
     }, 1000);
-
-    function onhover(button){
-        var div=document.getElementById(button);
-        div.style.transition="0.5s";
-        div.style.width="302px";
-        div.style.height="40px";
-
-        var text=document.getElementById(button+"_text");
-        text.innerText="Click Me";
-    }
-    function onreverse(button){
-        var div=document.getElementById(button);
-
-        div.style.width="56px";
-        div.style.height="55px";
-        var text=document.getElementById(button+"_text");
-        text.innerText="";
-    }
-
-
 </script>
 </html>
