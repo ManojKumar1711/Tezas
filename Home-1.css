@@ -922,14 +922,23 @@
 }
 
 .u-section-5 .u-image-1 {
+
   width: 158px;
   height: 158px;
   object-position: 50% 0%;
-  background-image: url("images/about-us.png");
+  background-image: url("images/rmkcetlogo.png");
   background-position: 50% 50%;
   margin: 39px auto 0;
 }
 
+.images-two{
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-images{
+  border-radius: 50%;
+}
 .u-section-5 .u-text-3 {
   width: 320px;
   font-size: 1.25rem;
